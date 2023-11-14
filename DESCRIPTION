@@ -1,0 +1,29 @@
+Package: cescalate
+Title: Exploring toxicity/efficacy dose-escalation designs with continuous efficacy
+Version: 0.0.0.9000
+Authors@R: 
+    person("Quang", "Nguyen", , "quangpmnguyen@gmail.com", role = c("aut", "cre"))
+Description: This package performs model fitting, simulation, and visualization 
+    for various efficacy and toxicity interval design for phase I/II
+    dose finding trials such as checkerboard by Yin and Yuan (10.1080/10543406.2020.1815033)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Biarch: true
+Depends: 
+    R (>= 3.4.0)
+Imports: 
+    methods,
+    Rcpp (>= 0.12.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    rstantools (>= 2.3.1.1)
+LinkingTo: 
+    BH (>= 1.66.0),
+    Rcpp (>= 0.12.0),
+    RcppEigen (>= 0.3.3.3.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    StanHeaders (>= 2.18.0)
+SystemRequirements: GNU make
+RoxygenNote: 7.2.3
